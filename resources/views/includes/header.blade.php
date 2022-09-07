@@ -3,9 +3,12 @@
         <img class="logo" src="../assets/images/dc-logo.png" alt="Dc logo">
         <nav>
             <ul class="d-flex justify-content-between">
-                <li<a :href="#" class="text-uppercase">
-                    Comics
-                </a></li>    
+                @foreach ($headerLinks as $link)
+                    <li
+                    <a href="{{$link->url}}" class="text-uppercase">
+                        {{$link->name}}
+                    </a></li>
+                @endforeach    
             </ul>
         </nav>
     </div>
