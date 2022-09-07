@@ -12621,6 +12621,10 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  background-color: #1C1C1C;
+}
+
 header .wrapper {
   width: 80%;
   margin: 0 auto;
@@ -12684,6 +12688,29 @@ main div.cards {
   margin: 0 auto;
 }
 
+main div.cards div.comic-card {
+  width: calc(16.6666666667% - 1.5rem);
+  height: 15rem;
+}
+
+main div.cards div.comic-card div.image-container {
+  height: 10rem;
+}
+
+main div.cards div.comic-card div.image-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  width: 100%;
+  height: 100%;
+}
+
+main div.cards div.comic-card h6,
+main div.cards div.comic-card .h6 {
+  font-size: 0.8rem;
+}
+
 main .btn-container {
   width: 15rem;
   margin: 0 auto;
@@ -12695,5 +12722,94 @@ main .btn-container .btn-more {
   color: white;
   font-weight: bold;
   padding: 0.5rem 3rem;
+}
+
+main div {
+  width: 100%;
+}
+
+main div.main-nav {
+  background-color: #0282F9;
+  padding: 1rem 15rem;
+}
+
+main div.main-nav div.link {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+}
+
+main div.main-nav div.link .link-img {
+  width: 2.5rem;
+}
+
+main div.main-nav div.link span {
+  font-size: 0.8rem;
+}
+
+footer {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-size: cover;
+}
+
+footer .wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer nav {
+  padding: 0.7rem;
+  width: 90%;
+  margin: 0 auto;
+  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0 0.2rem;
+  margin-right: 2rem;
+}
+
+footer nav ul a {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+footer div.footer-bottom {
+  background-color: #303030;
+}
+
+footer div.footer-bottom .container-bottom {
+  width: 70%;
+  margin: 0 auto;
+}
+
+footer div.footer-bottom button.sign-up {
+  padding: 0 10px;
+  background-color: transparent;
+  border-color: #0282F9;
+  color: white;
+  font-weight: bold;
+}
+
+footer div.footer-bottom div.follow {
+  width: 30rem;
+}
+
+footer div.footer-bottom div.follow span {
+  color: #0282F9;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+footer div.footer-bottom div.follow img {
+  width: 1.7rem;
 }
 

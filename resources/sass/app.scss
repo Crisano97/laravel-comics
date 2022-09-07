@@ -1,6 +1,9 @@
-@import '~bootstrap/scss/bootstrap';
 @import 'partials/variables.scss';
+@import '~bootstrap/scss/bootstrap';
 
+body {
+    background-color: #1C1C1C;
+}
 
 header{
     .wrapper{
@@ -62,6 +65,23 @@ main{
         color: white;
         padding: 3rem 5.4rem;
         margin: 0 auto;
+
+        div.comic-card{
+            width: calc(100% / 6 - 1.5rem);
+            height: 15rem;
+            div.image-container{
+                height: 10rem;
+                img{
+                    object-fit: cover;
+                    object-position: top;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            h6{
+                font-size: .8rem;
+            }
+        }
     }
 
     .btn-container{
@@ -76,4 +96,91 @@ main{
             padding: .5rem 3rem;
         }
     }
+
+    div{
+        width: 100%;
+    }
+
+    div.main-nav{
+        
+            background-color: $mainBgColor;
+            padding: 1rem 15rem;
+
+            div.link{
+                height: fit-content;
+                width: fit-content;
+                color: white;
+
+                .link-img{
+                    width: 2.5rem;
+                }
+
+                span{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+}
+
+footer{
+
+    background-image: url('../../public/assets/images/footer-bg.jpg');
+    background-size: cover;
+
+    .wrapper{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    nav{
+        padding: 0.7rem;
+        width: 90%;
+        margin: 0 auto;
+        background-image: url('../../public/assets/images/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-position: right;
+
+        ul{
+            list-style: none;
+            padding: 0 0.2rem;
+            margin-right: 2rem;
+            
+            a{
+                text-decoration: none;
+                color: gray;
+                font-size: 0.8rem;
+            }            
+        }
+    }
+
+div.footer-bottom{
+    background-color: #303030;
+
+    .container-bottom{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    button.sign-up{
+        padding: 0 10px;
+        background-color: transparent;
+        border-color: #0282F9;
+        color: white;
+        font-weight: bold;
+    }
+
+    div.follow{
+        width: 30rem;
+
+        span{
+            color: #0282F9;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+
+        img{
+            width: 1.7rem;
+        }
+    }
+}
 }
