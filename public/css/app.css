@@ -12621,3 +12621,79 @@ fieldset:disabled .btn {
   }
 }
 
+header .wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header img {
+  width: 5rem;
+}
+
+header nav {
+  width: 50rem;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+header nav ul a {
+  color: black;
+  text-decoration: none;
+  padding: 2.5rem 0;
+  border-bottom: 5px solid transparent;
+}
+
+header nav ul a:hover {
+  border-bottom: 5px solid blue;
+}
+
+main {
+  padding-bottom: 2rem;
+}
+
+main div.jumbotron {
+  height: 20rem;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+main .current-series-comics {
+  background-color: #0282F9;
+  width: 15rem;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: -2rem;
+  left: 5.3rem;
+}
+
+main div.cards {
+  color: white;
+  padding: 3rem 5.4rem;
+  margin: 0 auto;
+}
+
+main .btn-container {
+  width: 15rem;
+  margin: 0 auto;
+}
+
+main .btn-container .btn-more {
+  background-color: #0282F9;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 3rem;
+}
+
